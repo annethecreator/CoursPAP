@@ -19,19 +19,7 @@ public class Exemples {
 		else if (note < 50)
 			res = "Ajourné";
 		else
-			res = "reussite";
-		
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			res = "reussite";	
 		return res;
 		
 	}
@@ -46,4 +34,6 @@ public class Exemples {
 		System.out.println("La decision est: "+decision);
 		scan.close();
   }
+	// par contre le prof a fait run puis -ea mais je vois pas ou je dois choisir le truc
 }
+
