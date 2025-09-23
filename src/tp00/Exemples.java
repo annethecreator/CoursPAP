@@ -6,12 +6,31 @@ public class Exemples {
 	/**
 	 * Calcule la décision d'une note
 	 * @param note entier entre 0 et 100
-	 * @return Une décision refus, ajourné, réussite
+	 * @return Une décision refus, ajourné, reussite
 	 */
 	/// Ici on a creer une fonction, elle renvoie une chaine de caractere///
 	///
 	public static String calculDecision(int note) {
-		String res = "Reussite";
+		
+		assert note >=0 &&  note <=100;
+			String res;
+		if(note<30)
+			res = "refus";
+		else if (note < 50)
+			res = "Ajourné";
+		else
+			res = "reussite";
+		
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		return res;
 		
