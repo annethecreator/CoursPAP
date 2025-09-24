@@ -12,7 +12,7 @@ public class Exemples {
 	///
 	public static String calculDecision(int note) {
 		
-		assert note >=0 &&  note <=100;
+		assert note >=0 &&  note <=100;  
 			String res;
 		if(note<30)
 			res = "refus";
